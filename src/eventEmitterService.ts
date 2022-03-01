@@ -1,7 +1,7 @@
 import { EventSubscriber } from './eventSubscriber';
 import { Event } from './event';
 
-export default class EventEmitterService<EventType> {
+export class EventEmitterService<EventType> {
     private subscribers: EventSubscriber<EventType, any>[] = [];
 
     subscribe(eventSubscriber: EventSubscriber<EventType, any>) {
