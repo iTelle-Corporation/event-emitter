@@ -30,7 +30,7 @@
         "singleQuote": true,
         "trailingComma": "es5"
     },
-    "name": "event-emitter",
+    "name": "@jozi/event-emitter",
     "author": "Jozi",
     "module": "dist/event-emitter.esm.js",
     "size-limit": [
